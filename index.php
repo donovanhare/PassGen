@@ -43,6 +43,13 @@
 		
 	</div>
 </body>
+<footer>
+	<center>
+		<a href="https://github.com/donsta3000/PassGen">
+			<img src="GitHub_Logo.png" width="5%" height="5%">
+		</a>
+	</center>
+</footer>
 
 <script type="text/javascript">
 	$( document ).ready(function() {
