@@ -49,7 +49,7 @@
 	</div>
 </body>
 <footer>
-	<center>
+	<center id="github">
 		<a href="https://github.com/donsta3000/PassGen">
 			<img src="GitHub_Logo.png" width="5%" height="5%">
 		</a>
@@ -95,6 +95,7 @@
 		$("#print").click(function() {
 			console.log( "Sent to printer!" );
 			$("#buttons").hide();
+			$("#github").hide();
 			$(".page-header").hide();
 			$("#time-box").show();
 
@@ -102,6 +103,7 @@
 
 			$("#time-box").hide();
 			$("#buttons").show();
+			$("#github").show();
 			$(".page-header").show();
 		});
 
