@@ -2,7 +2,12 @@
 
 <html>
 <head>
-	<title>Password Generator</title>
+	<title>Simple Password Generator</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Generate a secure but memorable password using our open-source password generation system. Print out your password once generated, built in copy button and more!">
+	<meta name="keywords" content="password,generator,simple,basic,secure,passpharse,memorable">
+	<meta name="author" content="Donovan Hare">
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
