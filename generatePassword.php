@@ -39,6 +39,7 @@
 			
 			$pass = $dictPhrase . "-" . $rand;
 			if ($pass && checkUpper($pass) && checkDigit($pass)) {
+				$pass = preg_replace('/\s+/', '', $pass);
 				$generated = 1;
 			} else {
 				$pass = ''; 
